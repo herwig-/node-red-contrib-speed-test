@@ -5,13 +5,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spookyd/node-red-contrib-speed-test.git"
+    "url": "git+https://github.com/spookyd/node-red-contrib-speed-test.git"
   },
-  "author": {
-    "name": "Luke Davis",
-    "email": "lpdavis13@gmail.com",
-    "url": "lucky13.technologies"
-  },
+  "author": "Luke Davis <lpdavis13@gmail.com> (lucky13.technologies)",
   "main": "speed.js",
   "engines": {
     "node": ">=4"
@@ -51,5 +47,9 @@
     "chai": "^3.5.0",
     "sinon": "^1.17.6",
     "proxyquire": "^1.7.10"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/spookyd/node-red-contrib-speed-test/issues"
+  },
+  "homepage": "https://github.com/spookyd/node-red-contrib-speed-test#readme"
 }
