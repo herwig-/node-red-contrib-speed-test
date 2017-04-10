@@ -7,12 +7,12 @@
 Ensure you have [Node.js](https://nodejs.org) version 4+ installed. Then run the following:
 I had problems with the normal install mechanism. The follwoing worked for me:
 
-* go to directory of .node-red
- -> pi@raspberrypi:~ $ cd .node-red/node_modules
+* go to directory of .node-red moduels
+ -> pi@rasp:~ $ cd .node-red/node_modules
 * download source files directly from github
- -> pi@raspberrypi:~/.node-red/node_modules $ git clone https://github.com/herwig-/node-red-contrib-speed-test.git
-* go to downoaded directory -> pi@raspberrypi:~/.node-red/node_modules $ cd node-red-contrib-speed-test
-* install -> pi@raspberrypi:~/.node-red/node_mdues/node-red-contrib-speed-test $ npm install
+ -> pi@rasp:~/.node-red/node_modules $ git clone https://github.com/herwig-/node-red-contrib-speed-test.git
+* go to downoaded directory -> pi@rasp:~/.node-red/node_modules $ cd node-red-contrib-speed-test
+* install -> pi@rasp:~/.node-red/node_mdues/node-red-contrib-speed-test $ npm install
 
 
 
